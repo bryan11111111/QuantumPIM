@@ -1,15 +1,12 @@
-#include <QApplication>
-#include <QWidget>
+#include <stdio.h>
+#include <math.h>
 
-// https://learnxinyminutes.com/c++/
+typedef unsigned long ulong;
 
 int main(int argc, char** argv)
 {
-	QApplication app(argc, argv);
-	QWidget window;
+	unsigned int x = pow(2, 31) - 1;
+	printf("%d\n", x);
 
-	window.setWindowTitle("Quantum Circuit Simulation");
-
-	window.show();
-	return app.exec();
+	return 0;
 }

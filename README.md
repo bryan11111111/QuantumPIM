@@ -23,7 +23,7 @@ sudo apt-get install make qmake6 g++ scons libgtest-dev bear
 
 (for Void Linux)
 ```sh
-sudo xbps-install -Sy make qt5-qmake gcc scons gtest-devel bear
+sudo xbps-install -Sy make qt6-base-devel gcc scons gtest-devel Bear
 ```
 
 # Quick-start Application
