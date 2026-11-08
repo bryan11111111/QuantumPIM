@@ -1,6 +1,6 @@
 # build
 cd /src
-qmake6 project.pro
+/usr/lib/qt6/bin/qmake6 project.pro
 bear -- make clean
 bear -- make -j"$(nproc)"
 
