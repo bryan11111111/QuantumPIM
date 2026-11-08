@@ -2,8 +2,6 @@
 .vscode/
 build/
 app
-src/PIMSimulator/bin/
-bin/
 compile_commands.json
 .gitattributes
 .gitignore
