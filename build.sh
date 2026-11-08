@@ -1,5 +1,5 @@
 # build
-cd /src
+cd src
 /usr/lib/qt6/bin/qmake6 project.pro
 bear -- make clean
 bear -- make -j"$(nproc)"
@@ -9,7 +9,7 @@ bear -- make clean
 bear -- make -j"$(nproc)"
 
 # clean
-rm *.o
+# rm *.o
 # rm .qmake.stash
 
 # run
